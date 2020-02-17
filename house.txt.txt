@@ -1,0 +1,72 @@
+class Area
+
+{
+
+    private double s;
+
+    private double a;
+ 
+   public void setSqfeet(double s)
+
+    {
+
+        this.s=s;
+
+    }
+
+    public double getSqfeet(double s)
+
+    {
+
+        return this.s;
+  
+  }
+
+    public void setArea(double a)
+
+    {
+
+        this.a=a;
+ 
+   }
+
+    public double getArea()
+ 
+   {
+
+        if(this.s==1200)
+   
+     {
+
+            return (this.a)*(1200);
+ 
+       }
+ 
+       else if(this.s==1500)
+   
+     {
+ 
+           return (this.a)*(1500);
+
+        }
+    
+    else if(this.s==1800)
+    
+    {
+     
+       return (this.a)*(1800);
+  
+      }
+
+        else 
+   
+     {
+     
+      return (this.a)*(2500);
+ 
+        }
+ 
+   }
+
+}
+
